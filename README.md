@@ -14,6 +14,8 @@ The three projects use the same long-only mean-variance setup with three differe
 
 With return forecasts this noisy, how the risk is estimated (window, shrinkage, treatment of missing data) matters as much as the forecast itself.
 
+All three projects draw their stocks from the course's list of the 2025 S&P 500, so their backtests carry look-ahead in the universe: firms that left the index before 2025 are missing. Each project's README says how this affects its results.
+
 ## Projects
 
 ### [Momentum and a minimum-variance winner portfolio](qi-momentum)
