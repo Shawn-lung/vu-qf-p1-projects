@@ -52,6 +52,7 @@ Team project; numbers from the submitted summary.
 - **Backtest 2021-2025:** with monthly rebalancing on lagged forecasts, the strategy returned 9.30% a year against 14.57% for the market, with volatility 8.88% against 15.14% and a maximum drawdown of 6.87% against 23.67%. Beta is 0.40; the alpha of 2.82% a year is not significant (p = 0.378).
 - **Sensitivity:** in April 2023, when March 2020 left the three-year covariance window, the share invested in stocks rose from 0.52 to 0.86 while expected returns barely changed. The covariance estimate, not the return forecast, drove the allocation.
 - **Limitations:** the backtest ignores transaction costs and whole-share rounding.
+- **Universe:** the course's stock list is the S&P 500 of 2025, so the 2021-2025 backtest holds almost only firms that were still in the index at the end: stocks that dropped out are missing, and stocks that rose into it are included. This look-ahead in the universe flatters the strategy but not the market benchmark, so the finding that the strategy lagged the market holds despite the bias. The market forecasts use the index itself and are not affected.
 
 ## Data
 

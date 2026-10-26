@@ -45,6 +45,7 @@ Team project; numbers from the submitted summary. Test period 2023-2025.
 - **Portfolio:** the mean-variance portfolio built on the random-forest forecasts returned 13.1% a year (Sharpe ratio 0.68) against 23.0% (1.34) for the market. The forecasts differ little across stocks, so the covariance matrix drives the weights; the portfolio turned defensive (beta 0.68) and missed the 2023-2025 rally led by large growth stocks.
 - **Top decile:** simply holding the top decile would have returned 33% a year, but with a beta of 1.48 and no significant alpha: the gain came from market risk, not stock picking.
 - **Limitation:** for January 2026 the optimizer expects a Sharpe ratio of 2.4, far above the 0.68 realised in the backtest, which suggests it trusts the forecasts too much.
+- **Universe:** the course's stock list is the S&P 500 of 2025, so the 2023-2025 backtest holds almost only firms that were still in the index at the end: stocks that dropped out are missing, and stocks that rose into it are included. This look-ahead in the universe flatters every strategy built on it, though not the market benchmark. The finding that the mean-variance portfolio lagged the market holds despite the bias; the top-decile return is probably overstated.
 
 ## Data
 

@@ -16,6 +16,7 @@ Team project; numbers from the submitted summary.
 - **Portfolio:** every stock in the winner decile gets the same expected return, so a long-only minimum-variance portfolio (two years of daily returns, at most 10% per stock) decides the weights. One-sixth of the capital enters a new cohort each month.
 - **Backtest 2021-2025:** EUR 10m grows to EUR 20.3m: 15.2% a year at 15.2% volatility (Sharpe ratio 0.95), against 14.3% at 15.9% for an equally weighted portfolio of the same stocks.
 - **Limitation:** with equal expected returns inside the decile, the covariance matrix alone sets the weights; the momentum signal only chooses which stocks are eligible.
+- **Universe:** the course's stock list is the S&P 500 of 2025, so the 2016-2025 sample holds almost only firms that were still in the index at the end: stocks that dropped out are missing, and stocks that rose into it are included. This look-ahead in the universe probably overstates the winners' return, since past winners that later collapsed are absent. The equally weighted comparison uses the same stocks and shares the bias.
 
 ## Data
 
