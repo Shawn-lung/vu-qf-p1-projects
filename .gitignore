@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+.DS_Store
+.vscode/
+
+# Credentials
+.env
+pgpass.conf
+.pgpass
+
+# Data and results: never commit (WRDS data is licensed; other inputs are downloaded by the user)
+**/data/*
+outputs/
+*.csv
+*.parquet
+*.xlsx
+*.pdf
